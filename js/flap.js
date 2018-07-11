@@ -71,7 +71,7 @@ var FlapDemo = function(display_selector) {
 
 
 	this.update=function(){
-        var info=["delta\nforce","we love coding","we hack our \n way through","we love coffee","fuck you !","welcome to delta"];
+        var info=["delta\nforce","we love coding","we hack our \n way through","we love coffee","hello there!","welcome to delta"];
         var text = _this.cleanInput(info[Math.floor(Math.random()*5)]);
 
         var buffers = _this.parseInput(text);
